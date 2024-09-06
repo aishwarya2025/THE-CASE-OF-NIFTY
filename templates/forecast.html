@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forecast Result</title>
+</head>
+<body>
+    <h1>Forecast for {{ forecast_date }}</h1>
+    <p>The forecasted return is: {{ forecasted_value }}</p>
+    <a href="{{ url_for('index') }}">Back to form</a>
+</body>
+</html>
